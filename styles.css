@@ -1,9 +1,15 @@
+/* El * es un selector universal y sirve para reiniciar los estilos de todos los elementos en especial paddings y margins */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .container {
   position: relative;
-  background-image: url(/img/bg.jpg);
+  background: url(/img/bg.jpg) no-repeat;
   width: 100%;
   height: 600px;
-  background-repeat: no-repeat;
 }
 .middle {
   position: absolute;
@@ -45,6 +51,4 @@
 }
 .textint {
   padding-top: 40px;
-}
-.maintext {
 }
