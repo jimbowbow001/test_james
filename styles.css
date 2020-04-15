@@ -18,7 +18,7 @@
   content: "";
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.1);
   position: absolute;
   z-index: 0;
 }
@@ -36,7 +36,7 @@
 }
 .bottomleft {
   position: absolute;
-  left: 0px;
+  left: 10px;
   top: 490px;
   writing-mode: vertical-rl;
 }
@@ -46,12 +46,12 @@
 .topleft {
   position: absolute;
   left: 10px;
-  top: 0;
+  top: 10px;
 }
 .topright {
   position: absolute;
   right: 25px;
-  top: 0;
+  top: 10px;
 }
 
 .textint {
